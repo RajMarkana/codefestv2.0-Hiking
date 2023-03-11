@@ -176,7 +176,7 @@ li a{
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center; 
-    height: 55pc;
+    padding-bottom: 30pc;
     flex-wrap: wrap;
     text-align: center;
 
@@ -206,4 +206,41 @@ li a{
     padding: 5px 10px;
     border-radius: 5pc;
     background-color: transparent;
+}
+
+@media only screen and (max-width: 1079px){
+	.quotebox{
+        width: 25pc;
+    }
+    .info img{
+        width: 20pc;
+    }
+    .info h3{
+        text-align: center;
+        position: relative;
+        top: -3pc;
+        
+    }
+}
+@media only screen and (max-width: 759px){
+	.container-middle .center{
+        width: 30pc;
+    }
+    .info h3{
+        text-align: center;
+        position: relative;
+        top: -2pc;
+        
+    }
+}
+@media only screen and (max-width: 699px){
+	.info img{
+        margin-top: 2pc;
+    }
+}
+@media only screen and (max-width: 484px){
+	.container-middle .center{
+        width: 25pc;
+        height: 20pc;
+    }
 }
