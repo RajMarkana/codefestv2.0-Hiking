@@ -244,3 +244,15 @@ li a{
         height: 20pc;
     }
 }
+@media only screen and (max-width: 413px){
+	.quotebox{
+        width: 20pc;
+    }
+    .container-middle .center{
+        width: 22pc;
+        height: 20pc;
+    }
+    .container-middle .center p{
+        width: 20pc;
+    }
+}
