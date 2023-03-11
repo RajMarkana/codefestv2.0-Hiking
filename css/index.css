@@ -1,0 +1,209 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500&family=Sofia&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Faustina', serif;
+    font-family: 'Sofia', cursive;
+    font-family: 'Urbanist', sans-serif;
+}
+.container-header{
+    background-image: url("../assets/main.jpg");
+
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    padding-bottom: 40px;
+    width: 100%;
+    transform: scaleX(-1);
+}
+.main{
+    transform: scaleX(-1);
+}
+.logo{
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.logo img{
+    width: 4pc;
+}
+.logo b{
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top: 1pc;
+}
+
+.navigation{
+    margin-top: 1pc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: #595a60;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.search input{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+.fa-search {
+    position: relative;
+    top: 0;
+    left: 2pc;
+    color: #ffaf3c;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: scaleX(-1);
+    height: 100%;
+    
+}
+.quote-container{
+    /* background-color: #ffaf3c; */
+    /* width: 40%; */
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quotebox{
+
+    margin-top: 8pc;
+    background-color: #f8970f82;
+    width: 30pc;
+    padding: 10px;
+    text-align: center;
+ 
+}
+.info{
+    width: 40%;
+    color: white;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info h3{
+    text-align: center;
+    position: relative;
+    top: -4pc;
+    
+}
+.info button{
+    width: 10pc;
+    outline: none;
+    border: 4px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5pc;
+    background-color: transparent;
+}
+
+.container-middle{
+    background-image: url("../assets/BG-Yellow.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: top; 
+    padding-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14pc;
+    padding-bottom: 14pc;
+  
+}
+.container-middle p{
+    
+    font-size: 4pc;
+    text-align: center;
+}
+.container-middle .center{
+    
+    width: 45pc;
+    height: 30pc;
+    background-image: url("../assets/1.png");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.container-middle .center p{
+    margin-top: 2pc;
+    width: 30pc;
+    text-align: center;
+    font-size:1.2pc;
+    letter-spacing: 1px;
+    color: white;
+}
+.container-footer{
+    background-image: url("../assets/footer3.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 50pc;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.container-footer b{
+    font-size: 2pc;
+}
+.container-footer .container-level{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.lb{
+    width: 20pc;
+   margin: 2pc; 
+}
+.lb p{
+    text-align: start;
+}
+.lb button{
+    width: 10pc;
+    outline: none;
+    border: 4px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5pc;
+    background-color: transparent;
+}
